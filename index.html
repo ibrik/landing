@@ -1,0 +1,173 @@
+<html>
+  <head>
+    <title>VALIS</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900|Armata|Exo:400,700,900|Inconsolata|Roboto:400,700|Righteous' rel='stylesheet' type='text/css'> 
+  </head>
+  <body>
+
+<style>
+
+* { font-family: Exo, sans-serif; font-weight: bold; }
+body { padding:0; margin:0; }
+
+.boxes-top {
+  width:180px;
+  font-size:25px;
+}
+
+.boxes {
+  width:200px;
+  margin:0px auto 0px auto;
+}
+
+.letters {
+  width:200px;
+  margin:10px auto 0px auto;
+  text-align: center;
+}
+
+.boxes .box {
+  float: left;
+  width:38px; height: 5px;
+  margin:0 1px 0; padding:0;
+  opacity: .5;
+}
+.boxes-top .box {
+  opacity: .2 !important;
+  height: 3px !important;
+}
+
+.hl {
+  opacity: 1;
+  float: left;
+  width:38px; height: 38px;
+  margin:0 1px; padding:0;
+  font-size:37px;
+  line-height:38px;
+  letter-spacing:0; 
+  /*background-color:#000 !important;*/
+  background-color:inherit !important;
+  /*color: #ecaf0d !important;*/
+  color: #ccc !important;
+}
+
+.hl.hl1 {
+  /*opacity: .85;*/
+  /*
+  -webkit-border-top-left-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  -moz-border-radius-topleft: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  */
+}
+
+.hl.hl6 {
+  /*
+  -webkit-border-top-right-radius: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  -moz-border-radius-bottomright: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  */
+}
+
+h1 {
+  font-family: Exo;
+  font-size:20px;
+  letter-spacing:1px;
+  font-weight:400;
+  color:#fff;
+  text-align:center;
+  opacity: .8 !important;
+  margin-top:80px;
+
+  padding-bottom:10px;
+  border-bottom: 1px solid #ccc;
+}
+
+h4 {
+  font-family: Roboto;
+  width:350px;
+  font-size:16px;
+  font-weight: normal;
+  color:#ddd;
+  text-align:center;
+  margin:0 auto;
+  line-height: 30px;
+  display:none;
+}
+
+.slash {
+  color: #caf0de;
+  position: absolute;
+  z-index: 100;
+  left: 639px;
+  top: 77px;
+  font-size: 18px;
+  font-weight: normal;
+  display:none;
+}
+
+video#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(aurora.jpg) no-repeat;
+  background-size: cover;
+}
+
+.logo-wrapper {
+  width:400px; margin:10% auto 0; padding:30px 0;
+  border-bottom:0px dashed #222;
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+</style>
+
+    <video autoplay loop muted poster="aurora.jpg" id="bgvid">
+      <source src="aurora.webm" type="video/webm">
+      <!--<source src="aurora.mp4" type="video/mp4">-->
+    </video>
+
+    <div class="logo-wrapper" style="">
+      <div>
+        <div class="boxes boxes-top">
+          <span class="box" style="background-color:#0decaf; color:#caf0de;"></span>
+          <span class="box" style="background-color:#af0dec; color:#decaf0;"></span>
+          <span class="box" style="background-color:#decaf0; color:#af0dec;"></span>
+          <span class="box" style="background-color:#ecaf0d; color:#f0deca;"></span>
+          <span class="box" style="background-color:#0decaf; color:#caf0de;"></span>
+          <div style="clear:both;"></div>
+        </div>
+        <div class="boxes">
+          <span class="box" style="background-color:#0decaf; color:#caf0de;"></span>
+          <span class="box" style="background-color:#af0dec; color:#decaf0;"></span>
+          <span class="box" style="background-color:#decaf0; color:#af0dec;"></span>
+          <span class="box" style="background-color:#ecaf0d; color:#f0deca;"></span>
+          <span class="box" style="background-color:#0decaf; color:#caf0de;"></span>
+          <div style="clear:both;"></div>
+        </div>
+        <div class="letters">
+          <span class="hl hl2" style="background-color:#ecaf0d; color:#0decaf;">V</span>
+          <span class="hl hl2" style="background-color:#ecaf0d; color:#f0deca;">A</span>
+          <span class="hl hl3" style="background-color:#decaf0; color:#af0dec;">L</span>
+          <span class="hl hl4" style="background-color:#0decaf; color:#caf0de;">I</span>
+          <span class="hl hl5" style="background-color:#f0deca; color:#ecaf0d;">S</span>
+          <div style="clear:both;"></div>
+        </div>
+
+        <div style="font-size:16px; font-family: Lato; margin-top:20px; font-weight:normal; color:#ccc; line-height:28px;
+          letter-spacing:2px; text-align:center;">March 2015</div>
+
+        <div style="font-size:13px; font-family: Lato; margin-top:40px; font-weight:normal; color:#ccc; line-height:28px;
+          letter-spacing:2px; text-align:center;"><a href="#" style="font-family: Lato; font-weight: normal; text-decoration:none; color:#ccc;
+            !important;">transmissions@valis.co</a></div>
+      </div>
+    </div>
+  </body>
+</html>
